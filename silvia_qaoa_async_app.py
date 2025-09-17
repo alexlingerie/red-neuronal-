@@ -1,4 +1,4 @@
-"""
+uvicpip install fastapi uvicorn python-dotenv requests qiskit qiskit-aer qiskit-ibm-runtime qiskit-optimization transformers torchorn silvia_qaoa_async_app:app --reload
 Silvia 9.0 — Unificado con Qiskit real + QAOA asíncrono.
 Mejoras: Integración de múltiples optimizadores (COBYLA, SPSA)
 y mitigación de ruido para una optimización cuántica más avanzada y flexible.
